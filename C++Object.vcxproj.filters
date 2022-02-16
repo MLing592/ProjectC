@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\类继承">
+      <UniqueIdentifier>{36aa935b-c6b6-4518-a4fd-b97c0c758ecc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\类继承">
+      <UniqueIdentifier>{42b2dcf0-15dc-4f5c-9e08-33339051fb5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\多继承">
+      <UniqueIdentifier>{55019e34-7e4d-4124-b131-6fab201ef9db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\多态性">
+      <UniqueIdentifier>{63dcd2da-02f0-4f94-bca4-27204548d041}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\模板">
+      <UniqueIdentifier>{f38b6175-3fdb-4156-85c7-475a2254b5c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\多态性">
+      <UniqueIdentifier>{e9ae27c7-c5ba-4c32-be69-5156ef14da2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\多继承">
+      <UniqueIdentifier>{03680f31-fd66-4893-89ff-3e9c46576cbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\模板">
+      <UniqueIdentifier>{c44f1a25-8141-4186-a3ed-1f088cc27b7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\异常处理">
+      <UniqueIdentifier>{d10b2a8e-593e-4bd6-b8ca-7f45e6a271cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\异常处理">
+      <UniqueIdentifier>{d5335bfa-fe54-46ee-a11d-911143618702}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="father.cpp">
+      <Filter>源文件\类继承</Filter>
+    </ClCompile>
+    <ClCompile Include="son.cpp">
+      <Filter>源文件\类继承</Filter>
+    </ClCompile>
+    <ClCompile Include="fatherfriend.cpp">
+      <Filter>源文件\类继承</Filter>
+    </ClCompile>
+    <ClCompile Include="someone.cpp">
+      <Filter>源文件\类继承</Filter>
+    </ClCompile>
+    <ClCompile Include="polymorphism.cpp">
+      <Filter>源文件\多态性</Filter>
+    </ClCompile>
+    <ClCompile Include="virtualfather.cpp">
+      <Filter>源文件\多继承</Filter>
+    </ClCompile>
+    <ClCompile Include="Template.cpp">
+      <Filter>源文件\模板</Filter>
+    </ClCompile>
+    <ClCompile Include="Exception.cpp">
+      <Filter>源文件\异常处理</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="father.h">
+      <Filter>头文件\类继承</Filter>
+    </ClInclude>
+    <ClInclude Include="son.h">
+      <Filter>头文件\类继承</Filter>
+    </ClInclude>
+    <ClInclude Include="fatherfriend.h">
+      <Filter>头文件\类继承</Filter>
+    </ClInclude>
+    <ClInclude Include="someone.h">
+      <Filter>头文件\类继承</Filter>
+    </ClInclude>
+    <ClInclude Include="virtualfather.h">
+      <Filter>头文件\多继承</Filter>
+    </ClInclude>
+    <ClInclude Include="Template.hpp">
+      <Filter>头文件\模板</Filter>
+    </ClInclude>
+    <ClInclude Include="polymorphism.h">
+      <Filter>头文件\多态性</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
+      <Filter>头文件\异常处理</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
