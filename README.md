@@ -1,2 +1,2 @@
 # C-Test
-Test for C#
+Test for C++
